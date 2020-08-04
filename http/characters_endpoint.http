@@ -1,0 +1,21 @@
+GET http://localhost:8080/characters
+###
+
+POST http://localhost:8080/characters
+Content-Type: application/json
+
+{
+  "name": "Vinsmoke Sanji"
+}
+###
+
+GET http://localhost:8080/characters/1
+###
+
+PUT http://localhost:8080/characters/1
+Content-Type: application/json
+
+{
+  "name": "Monkey D. Garp"
+}
+###
