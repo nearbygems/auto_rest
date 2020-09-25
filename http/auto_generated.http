@@ -5,7 +5,7 @@ POST http://localhost:8080/characters
 Content-Type: application/json
 
 {
-  "name": "Bergen"
+  "name": "Sanzhar"
 }
 ###
 
@@ -16,7 +16,7 @@ PUT http://localhost:8080/characters/1
 Content-Type: application/json
 
 {
-  "name": "Bergen Juanyshev"
+  "name": "Sanzhar Juanyshev"
 }
 ###
 
